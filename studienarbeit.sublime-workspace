@@ -1,0 +1,288 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tempo",
+				"temporaryFolder"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 71.0,
+		"selected_items":
+		[
+			[
+				"Build: cle",
+				"Build: Clean"
+			],
+			[
+				"Build: ini",
+				"Build: Init"
+			],
+			[
+				"Build: in",
+				"Build: Init"
+			],
+			[
+				"ssmm",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"ss",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssm",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"Build: cl",
+				"Build: Clean"
+			],
+			[
+				"ssmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssmar",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ssMark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"inp",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 732.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Kapitel",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Zusatz"
+	],
+	"file_history":
+	[
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Zusatz/Anhang.tex",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Makefile",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Kapitel/03_Objektcode_zu_Quellcode.md",
+		"/Users/michaelriedel/.bash_profile",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/.build/Studienarbeit.tex",
+		"/Users/michaelriedel/.pandoc/templates/template.latex",
+		"/Users/michaelriedel/.pandoc/templates/listing.tex",
+		"/Users/michaelriedel/Developer/binSpector/view/binspector.h",
+		"/Users/michaelriedel/Developer/binSpector/view/binspector.cpp",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Quellcode_zu_Objektcode.md",
+		"/Users/michaelriedel/Developer/Scripts/markdown_to_pdf.sh",
+		"/Users/michaelriedel/Developer/binSpector/.travis.yml",
+		"/Users/michaelriedel/.pandoc/templates/README.md",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Objektcode_zu_Quellcode.md",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Einleitung.md",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/binSpector.md",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Glossar.md",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Studienarbeit.md",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/studienarbeit/markdown_to_pdf.sh",
+		"/Users/michaelriedel/Dropbox/Latex/Studienarbeit/Grundlagen.md",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/Einleitung.md",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/Grundlagen.md",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/Studienarbeit.md",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/MultiMarkdown.sublime-settings",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/Studienarbeit.tex",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Praktikumsbericht DLR/Praktikumsbericht.tex",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Bachelorarbeit.tex",
+		"/Volumes/Untitled/etc/fstab",
+		"/Users/michaelriedel/Dropbox/blob",
+		"/Users/michaelriedel/Developer/distantusb/src/install.sh",
+		"/Users/michaelriedel/Developer/distantusb/src/smb.conf",
+		"/Users/michaelriedel/.ssh/known_hosts",
+		"/Users/michaelriedel/Downloads/dcp195c_cupswrapper_GPL_source_1.1.3-1/cupswrapper/cupswrapperdcp195c",
+		"/Users/michaelriedel/Downloads/dcp195c_cupswrapper_GPL_source_1.1.3-1/brcupsconfig/Makefile"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Im Kapitel \\ref{sec:}",
+			"sec:",
+			"Entwicklung",
+			"CONFIG",
+			"SetupReport"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 416.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "studienarbeit.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

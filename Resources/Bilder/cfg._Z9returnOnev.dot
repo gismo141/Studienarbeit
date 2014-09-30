@@ -1,0 +1,5 @@
+digraph "CFG for '_Z9returnOnev' function" {
+	label="CFG for '_Z9returnOnev' function";
+
+	Node0x7fed815002e0 [shape=record,label="{%0:\l  ret i32 1\l}"];
+}

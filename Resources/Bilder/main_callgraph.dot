@@ -1,0 +1,10 @@
+digraph "Call graph" {
+	label="Call graph";
+
+	Node0x7f8228c0e080 [shape=record,label="{external node}"];
+	Node0x7f8228c0e080 -> Node0x7f8228c0e130;
+	Node0x7f8228c0e080 -> Node0x7f8228c0e1c0;
+	Node0x7f8228c0e1c0 [shape=record,label="{main}"];
+	Node0x7f8228c0e1c0 -> Node0x7f8228c0e130;
+	Node0x7f8228c0e130 [shape=record,label="{_Z9returnOnev}"];
+}

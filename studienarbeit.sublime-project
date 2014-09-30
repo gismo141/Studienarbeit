@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": ".",
+			"file_exclude_patterns": [
+ 			],
+ 			"folder_exclude_patterns": [
+ 				".build"
+ 			]
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/michaelriedel/Developer/binSpector"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/michaelriedel/Dropbox/Latex/configuration/Bibtex"
+		}
+	]
+}

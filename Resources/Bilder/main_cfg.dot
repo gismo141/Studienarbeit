@@ -1,0 +1,5 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x7fdb53c09af0 [shape=record,label="{%0:\l  %1 = alloca i32, align 4\l  %2 = alloca i32, align 4\l  %3 = alloca i8**, align 8\l  store i32 0, i32* %1\l  store i32 %argc, i32* %2, align 4\l  store i8** %argv, i8*** %3, align 8\l  %4 = call i32 @_Z9returnOnev()\l  ret i32 %4\l}"];
+}

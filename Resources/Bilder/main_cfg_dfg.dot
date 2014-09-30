@@ -1,0 +1,32 @@
+digraph G {
+compound=true
+label="Black edges - dataflow, red edges - control flow"
+"t1" [label="  %t1 = alloca i32, align 4"]
+"t2" [label="  %t2 = alloca i32, align 4"]
+"t3" [label="  %t3 = alloca i8**, align 8"]
+"_1" [label="  store i32 0, i32* %t1"]
+"_2" [label="  store i32 %argc, i32* %t2, align 4"]
+"_3" [label="  store i8** %argv, i8*** %t3, align 8"]
+"t4" [label="  %t4 = call i32 @_Z9returnOnev()"]
+"_4" [label="  ret i32 %t4"]
+"unk_block_1" -> "t1"[color=red]
+"i32 1" -> "t1"
+"t1" -> "t2"[color=red weight=2]
+"i32 1" -> "t2"
+"t2" -> "t3"[color=red weight=2]
+"i32 1" -> "t3"
+"t3" -> "_1"[color=red weight=2]
+"i32 0" -> "_1"
+"t1" -> "_1"
+"_1" -> "_2"[color=red weight=2]
+"argc" -> "_2"
+"t2" -> "_2"
+"_2" -> "_3"[color=red weight=2]
+"argv" -> "_3"
+"t3" -> "_3"
+"_3" -> "t4"[color=red weight=2]
+"_Z9returnOnev" -> "t4"
+"t4" -> "_4"[color=red weight=2]
+"t4" -> "_4"
+
+}

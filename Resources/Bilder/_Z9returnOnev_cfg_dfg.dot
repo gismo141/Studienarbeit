@@ -1,0 +1,8 @@
+digraph G {
+compound=true
+label="Black edges - dataflow, red edges - control flow"
+"_1" [label="  ret i32 1"]
+"unk_block_1" -> "_1"[color=red]
+"i32 1" -> "_1"
+
+}
